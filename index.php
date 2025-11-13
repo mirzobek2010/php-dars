@@ -1,6 +1,18 @@
-<?php
-  $text1 = "adadabcdekdAsadbek";
-  $text2 = "Bahramov";
-  $text3 = $text1."".$text2 ;
-  echo substr($text3,18,8);
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+  $a = 10;
+$b = 5;
+echo "yigind".$a+$b."<br>";
+echo "ayirma".$a-$b."<br>";
+echo "kopaytma".$a*$b."<br>";
+echo "bollinma".$a/$b."<br>";
+    ?>
+</body>
+</html>
