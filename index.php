@@ -1,18 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <?php
-  $a = 10;
-$b = 5;
-echo "yigind".$a+$b."<br>";
-echo "ayirma".$a-$b."<br>";
-echo "kopaytma".$a*$b."<br>";
-echo "bollinma".$a/$b."<br>";
-    ?>
-</body>
-</html>
+<?php
+$a = 9;
+switch($a){
+    case 1;
+  echo "dushanba";
+  break;
+ case 2;
+echo "seshanba";
+break;
+case 3;
+echo "chorshanba";
+break;
+case 4;
+echo "payshanba";
+break;
+case 5;
+echo "juma";
+
+default;
+echo "bunday kun yoq";
+}
